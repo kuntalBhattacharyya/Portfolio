@@ -1,0 +1,30 @@
+/* PracticeAreas.css */
+.practice-areas {
+    background-color: var(--background-color);
+    padding: 3rem 1.5rem;
+  }
+  
+  .practice-areas h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .practice-item {
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .practice-item h3 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+  }
+  
+  .practice-item p {
+    font-size: 1rem;
+    color: var(--text-color);
+  }
+  
