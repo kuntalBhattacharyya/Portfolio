@@ -1,0 +1,40 @@
+/* src/styles/Header.css */
+.header {
+  background-color: #f9fafb; /* Light background color */
+  color: #333; /* Dark text color for contrast */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd; /* Soft border at the bottom */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.advocate-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0D3B66; /* Primary color for text */
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #0D3B66;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #F4A261; /* Soft accent color for hover effect */
+}
